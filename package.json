@@ -1,7 +1,7 @@
 {
-  "name": "human-readable-ids",
-  "version": "1.0.1",
-  "description": "Generate human-readable ids from lists of easy-to-spell nouns and adjectives",
+  "name": "dnd-human-readable-ids",
+  "version": "1.0.0",
+  "description": "Generate dnd-human-readable ids from lists of easy-to-spell nouns and adjectives",
   "main": "index.js",
   "dependencies": {
     "knuth-shuffle": "^1.0.0"
@@ -27,10 +27,10 @@
     "nouns",
     "adjectives"
   ],
-  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
+  "author": ["AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)", "G Hamel <me@greghamel.com> (http://greghamel.com)"],
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/coolaj86/human-readable-ids-js/issues"
+    "url": "https://github.com/Greg-Hamel/dnd-human-readable-ids-js/issues"
   },
-  "homepage": "https://github.com/coolaj86/human-readable-ids-js"
+  "homepage": "https://github.com/Greg-Hamel/dnd-human-readable-ids-jss"
 }
