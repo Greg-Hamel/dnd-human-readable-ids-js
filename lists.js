@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  animals: require('./assets/animals').humanReadableIds.animals
+  creatures: require('./assets/creatures').humanReadableIds.creatures
 , adjectives: require('./assets/adjectives').humanReadableIds.adjectives
 };

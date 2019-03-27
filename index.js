@@ -4,7 +4,7 @@
 
   var lists = exports.humanReadableIds || require('./lists')
     , shuffle = exports.knuthShuffle || require('knuth-shuffle').knuthShuffle
-    , animals = []
+    , creatures = []
     , adjectives = []
     , numbers = []
     ;
@@ -27,15 +27,15 @@
     if (!adjectives.length) {
       adjectives = shuffle(lists.adjectives.slice(0));
     }
-    if (!animals.length) {
-      animals = shuffle(lists.animals.slice(0));
+    if (!creatures.length) {
+      creatures = shuffle(lists.creatures.slice(0));
     }
     if (!numbers.length) {
       numbers = shuffle(genNumbers());
     }
 
     return adjectives.pop()
-      + '-' + animals.pop()
+      + '-' + creatures.pop()
       + '-' + numbers.pop()
       ;
   }

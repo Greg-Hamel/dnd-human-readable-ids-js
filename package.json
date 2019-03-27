@@ -8,12 +8,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node tests/run-in-node.js"
-  , "prepublish": "node src/generate-lists"
+    "test": "node tests/run-in-node.js",
+    "prepublish": "node src/generate-lists"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coolaj86/human-readable-ids-js.git"
+    "url": "https://github.com/Greg-Hamel/dnd-human-readable-ids-js.git"
   },
   "keywords": [
     "hri",
@@ -27,10 +27,10 @@
     "nouns",
     "adjectives"
   ],
-  "author": ["AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)", "G Hamel <me@greghamel.com> (http://greghamel.com)"],
+  "author": "G Hamel <me@greghamel.com> (http://greghamel.com)",
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/Greg-Hamel/dnd-human-readable-ids-js/issues"
   },
-  "homepage": "https://github.com/Greg-Hamel/dnd-human-readable-ids-jss"
+  "homepage": "https://github.com/Greg-Hamel/dnd-human-readable-ids-js"
 }

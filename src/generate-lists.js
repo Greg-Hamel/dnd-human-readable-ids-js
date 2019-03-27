@@ -9,7 +9,7 @@ var fs = require('fs')
 
 tplFile = fs.readFileSync(path.join(__dirname, '..', 'src', 'tpl.js'), 'utf8');
 
-['animals', 'adjectives'].forEach(function (key) {
+['creatures', 'adjectives'].forEach(function (key) {
   files[key] = path.join(__dirname, '..', 'src', key + '.txt');
   master[key] = fs.readFileSync(files[key], 'utf8').trim().split('\n');
 
